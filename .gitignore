@@ -1,9 +1,24 @@
-# Python
+# --- Python ---
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
 .env
+.venv
+env/
+venv/
+ENV/
 
-# VS Code
+# --- Simulación (Datos y Resultados) ---
+# Ignoramos los CSVs generados para que no pesen en el repo, 
+# pero mantenemos la carpeta /data si quieres
+data/*.csv
+data/*.log
+
+# --- IDEs y Sistema ---
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Notebooks ---
+.ipynb_checkpoints
